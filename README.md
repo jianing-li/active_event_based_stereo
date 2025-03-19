@@ -1,1 +1,1 @@
-# Active Event-based Stereo
+# Active Event-based Stereo Vision
