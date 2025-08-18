@@ -29,9 +29,9 @@ All following operations are performed on the simulated dataset. The same proced
 
 1. **Download the dataset**
 
-* Download the **_RealSense-Event-Sim_** on the [simulated dataset project website](https://openi.pcl.ac.cn/LiDianze/PKU-DAVIS-SOD/datasets).
+* Download the **_RealSense-Event-Sim_** on the [simulated dataset project website](https://github.com/jianing-li/active_event_based_stereo/).
 
-* Download the **_Active Event-based Stereo_** on the [real-world dataset project website](https://openi.pcl.ac.cn/LiDianze/PKU-DAVIS-SOD/datasets).
+* Download the **_Active Event-based Stereo_** on the [real-world dataset project website](https://github.com/jianing-li/active_event_based_stereo/).
 
 
 2. **Execute the dataset preprocessing script**
