@@ -68,7 +68,7 @@ If the code and paper help your research, please kindly cite:
 @inproceedings{li2025active,
   title={Active event-based stereo vision},
   author={Li, Jianing and Zhang, Yunjian and Han, Haiqian and Ji, Xiangyang},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={971--981},
   year={2025}
 }
