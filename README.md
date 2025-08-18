@@ -21,7 +21,7 @@ Our active event-based stereo camera system integrates binocular event cameras a
 
 An Intel RealSense depth sensor is first used to capture 119 infrared video sequences at a resolution of 640×480, covering variations in velocity, lighting conditions, and scene diversity. These videos are then converted into event streams using the V2E simulator. The synthetic dataset provides stereo event streams along with 23.8k synchronized labels. We split the dataset into 16k samples for training, 3.8k for validation, and 4k for testing.
 
-Download the **_simulated dataset_** on the [dataset project website](https://openi.pcl.ac.cn/LiDianze/PKU-DAVIS-SOD/datasets).
+Download the **_simulated dataset_** on the [dataset project website](https://github.com/jianing-li/active_event_based_stereo/).
 
 <p align="center" width="75%">
 <img src="assets/simulator.png"  width="75%" height="60%">
@@ -32,7 +32,7 @@ Download the **_simulated dataset_** on the [dataset project website](https://op
 
 The real-world Active-Event-Stereo dataset captures challenging indoor and outdoor scenes. It includes **85 sequences** with synchronized stereo event streams, RGB frames, infrared frames, and depth maps (**15 Hz**, recorded with a RealSense D455). The dataset provides **21.5k** labeled samples, split into 14.6k for training, 3.6k for validation, and 3.3k for testing.
 
-Download the **_real-world dataset_** on the [dataset project website](https://openi.pcl.ac.cn/LiDianze/PKU-DAVIS-SOD/datasets).
+Download the **_real-world dataset_** on the [dataset project website](https://github.com/jianing-li/active_event_based_stereo/).
 
 <p align="center" width="75%">
 <img src="assets/real_dataset.png"  width="75%" height="60%">
