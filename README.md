@@ -75,10 +75,10 @@ If the code and paper help your research, please kindly cite:
 ```
 
 ```
-@inproceedings{li2025active,
+@article{li2025active,
   title={Towards Ultrafast Depth Sensing Via Active Event-based Stereo Vision},
   author={Li, Jianing and Zhang, Yunjian and Han, Haiqian and Huang, Kangyao and Ji, Xiangyang},
-  booktitle={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year={2026}
 }
 ```
