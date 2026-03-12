@@ -6,7 +6,7 @@
 
 🌟🌟🌟 ***News***: The conference version "[Active Event-based Stereo Vision](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Active_Event-based_Stereo_Vision_CVPR_2025_paper.html)" is accepted by IEEE CVPR 2025. This work presents a novel problem setting, termed \emph{active event-based stereo vision}, which is the first trial to integrate infrared structured light and binocular event cameras for ultra-high-speed dense depth sensing. [**Code Link**: AcitveEventNet](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet)
 
-🌟🌟🌟 ***Note***: The Journal version "**Towards Ultrafast Depth Sensing Via Active Event-based Stereo Vision**" is currently under review by IEEE Journal. This extended version implements an efficient temporal consistency architecture in ActiveEventNet to fully utilize the rich temporal cues in event streams, achieving a good balance between accuracy and speed. [**Code Link**: ActiveEventNet+](https://github.com/jianing-li/active_event_based_stereo/tree/main/Temporal_ActiveEventNet)
+🌟🌟🌟 ***Note***: The Journal version "**Towards Ultrafast Depth Sensing Via Active Event-based Stereo Vision**" has been accepted in IEEE TPAMI 2026. This extended version implements an efficient temporal consistency architecture in ActiveEventNet to fully utilize the rich temporal cues in event streams, achieving a good balance between accuracy and speed. [**Code Link**: ActiveEventNet+](https://github.com/jianing-li/active_event_based_stereo/tree/main/Temporal_ActiveEventNet)
 
 
 ## Motivation
@@ -71,5 +71,14 @@ If the code and paper help your research, please kindly cite:
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={971--981},
   year={2025}
+}
+```
+
+```
+@inproceedings{li2025active,
+  title={Towards Ultrafast Depth Sensing Via Active Event-based Stereo Vision},
+  author={Li, Jianing and Zhang, Yunjian and Han, Haiqian and Huang, Kangyao and Ji, Xiangyang},
+  booktitle={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2026}
 }
 ```
