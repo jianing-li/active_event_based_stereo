@@ -23,15 +23,15 @@ conda install pytorch==1.12.3 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
 ```
 
 # Usage
-All following operations are performed on the simulated dataset. The same procedures apply to the real dataset.
+All the following operations are performed on the simulated dataset. The same procedures apply to the real dataset.
 
 ### 🌟 ***Preparation Instructions***
 
 1. **Download the dataset**
 
-* Download the **_RealSense-Event-Sim_** on the [simulated dataset project website](https://github.com/jianing-li/active_event_based_stereo/).
+* Download the **_RealSense-Event-Sim_** on the [simulated dataset project website](https://www.modelscope.cn/datasets/jianingli/RealSense-Event-Sim/files).
 
-* Download the **_Active Event-based Stereo_** on the [real-world dataset project website](https://github.com/jianing-li/active_event_based_stereo/).
+* Download the **_Active Event-based Stereo_** on the [real-world dataset project website](https://www.modelscope.cn/datasets/jianingli/Active-Event-Stereo/files).
 
 
 2. **Execute the dataset preprocessing script**
