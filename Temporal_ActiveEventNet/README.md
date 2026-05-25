@@ -66,7 +66,7 @@ CUDA_VISIBLE_DEVICES=0 python3 test.py --datapath /store/ljn/active_event_stereo
 
 | name | Temporal architecture | Temporal aggregation length |resolution |EPE | RMSE | D1-all | Weights |
 |:---:|:---:|:---:|:---:|:---:| :---:|:---:|:---:|
-| Temporal-ActiveEventNet-Sim | ETC | T=3 |640x480 | 1.077 | 2.078  | 0.056 | [ckpt](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet+) |
+| Temporal-ActiveEventNet-Sim | ETC | T=3 |640x480 | 1.077 | 2.078  | 0.056 | [ckpt](https://www.modelscope.cn/models/jianingli/ActiveEventNet/file/view/master/Temporal-ActiveEventNet-Sim-T3.ckpt) |
 
 </div>
 
@@ -76,10 +76,10 @@ CUDA_VISIBLE_DEVICES=0 python3 test.py --datapath /store/ljn/active_event_stereo
 
 | name | Temporal architecture | Temporal aggregation length |resolution |EPE | RMSE | D1-all | Weights |
 |:---:|:---:|:---:|:---:|:---:| :---:|:---:|:---:|
-| Temporal-ActiveEventNet-Real | ETC | T=2 |346x260 | 1.890 | 7.812  | 0.082 | [ckpt](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet+) |
-| Temporal-ActiveEventNet-Real | ETC | T=3 |346x260 | 1.849 | 7.787  | 0.073 | [ckpt](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet+) |
-| Temporal-ActiveEventNet-Real | ETC | T=4 |346x260 | 1.829 | 7.792  | 0.072| [ckpt](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet+) |
-| Temporal-ActiveEventNet-Real | ETC | T=6 |346x260 | 1.782 | 7.761  | 0.071| [ckpt](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet+) |
+| Temporal-ActiveEventNet-Real | ETC | T=2 |346x260 | 1.890 | 7.812  | 0.082 | [ckpt](https://www.modelscope.cn/models/jianingli/ActiveEventNet/file/view/master/Temporal-ActiveEventNet-Real-T2.ckpt) |
+| Temporal-ActiveEventNet-Real | ETC | T=3 |346x260 | 1.849 | 7.787  | 0.073 | [ckpt](https://www.modelscope.cn/models/jianingli/ActiveEventNet/file/view/master/Temporal-ActiveEventNet-Real-T3.ckpt) |
+| Temporal-ActiveEventNet-Real | ETC | T=4 |346x260 | 1.829 | 7.792  | 0.072| [ckpt](https://www.modelscope.cn/models/jianingli/ActiveEventNet/file/view/master/Temporal-ActiveEventNet-Real-T4.ckpt) |
+| Temporal-ActiveEventNet-Real | ETC | T=6 |346x260 | 1.782 | 7.761  | 0.071| [ckpt](https://www.modelscope.cn/models/jianingli/ActiveEventNet/file/view/master/Temporal-ActiveEventNet-Real-T6.ckpt) |
 
 </div>
 
