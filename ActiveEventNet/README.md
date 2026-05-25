@@ -68,7 +68,7 @@ CUDA_VISIBLE_DEVICES=0 python3 test.py --datapath /store/ljn/active_event_stereo
 
 | name | Event representation | resolution |EPE | RMSE | D1-all | Weights |
 |:---:|:---:|:---:|:---:| :---:|:---:|:---:|
-| ActiveEventNet-Sim | Event image | 640x480 | 1.223 | 2.320  | 0.070 | [ckpt](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet) |
+| ActiveEventNet-Sim | Event image | 640x480 | 1.223 | 2.320  | 0.070 | [ckpt](https://www.modelscope.cn/models/jianingli/ActiveEventNet/file/view/master/ActiveEventNet-Sim.ckpt?status=2) |
 
 </div>
 
@@ -79,7 +79,7 @@ CUDA_VISIBLE_DEVICES=0 python3 test.py --datapath /store/ljn/active_event_stereo
 
 | name | Event representation | resolution |EPE | RMSE | D1-all | Weights |
 |:---:|:---:|:---:|:---:| :---:|:---:|:---:|
-| ActiveEventNet-Real | Event image | 346x340 | 1.993 | 7.821  | 0.083 | [ckpt](https://github.com/jianing-li/active_event_based_stereo/tree/main/ActiveEventNet) |
+| ActiveEventNet-Real | Event image | 346x340 | 1.993 | 7.821  | 0.083 | [ckpt](https://www.modelscope.cn/models/jianingli/ActiveEventNet/file/view/master/ActiveEventNet-Sim.ckpt?status=2) |
 
 </div>
 
