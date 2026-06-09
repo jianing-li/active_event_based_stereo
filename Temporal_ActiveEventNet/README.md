@@ -49,8 +49,10 @@ cp -r /store/ljn/active_event_stereo_dataset/code/dataset_filenames/ ./filenames
 ```
 
 ### Training
-&nbsp;**Note**: Our extended journal paper "**Towards Ultrafast Depth Sensing Via Active Event-Based Stereo Vision**" is currently under review at the IEEE Journal. The complete training code (```train.py```) will be released upon formal acceptance.
-
+Run ```train.py``` to evaluate the RealSense-Event-Sim dataset as:
+```
+CUDA_VISIBLE_DEVICES=0 python3 train.py --dataset eventstereo --logdir ./logdir/ --datapath ../active_event_stereo_dataset/ --trainlist ./filenames/AES/train_event_npys.txt --testlist ./filenames/AES/test_event_npys.txt --epochs 50 --lrepochs "20,25,30,35:1.5" --model AENet2D
+```
 
 ### Testing
 Run ```test.py``` to evaluate the RealSense-Event-Sim dataset as:
